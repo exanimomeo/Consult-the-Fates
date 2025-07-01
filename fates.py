@@ -135,7 +135,7 @@ def draw_interface():
     button_text = LABEL_FONT.render("Roll the Fates", True, WHITE)
     screen.blit(button_text, button_text.get_rect(center=button_rect.center))
 
-    title_surf = RESULT_FONT.render("by Chris Lumpa", True, WHITE)
+    title_surf = RESULT_FONT.render("by @exanimomeo", True, WHITE)
     screen.blit(title_surf, title_surf.get_rect(center=(WIDTH//2, HEIGHT - 50)))
 
 
